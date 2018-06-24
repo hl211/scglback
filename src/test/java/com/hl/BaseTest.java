@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  *
  * @author hkb <br>
  */
-@ActiveProfiles("test")
+@ActiveProfiles("dev")
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Ignore

@@ -1,3 +1,10 @@
+# 需求数据管理程序
+
+
+
+
+
+# 采用的一些框架
 ## 1、swagger2
 - 加2个包、添加配置文件
 - 访问的url: http://localhost:8080/swagger-ui.html
@@ -47,6 +54,8 @@
 - 在application.yml 里配置
 - 整合文档  https://blog.csdn./hkhhkb/article/details/79789869
 - 多条件查询 https://www.cnblogs.com/arrrrrya/p/7865090.html
+- 事务操作：一般在servicec层进行，用注解@Transactional
+- 学习jpa文档  https://www.w3cschool.cn/java/jpa-manytoone-mapping.html
 ### 10.1 问题
 - 多对一等关系时，fastjson序列化会产生死循环(@JsonIdentityInfo 解决)
 
